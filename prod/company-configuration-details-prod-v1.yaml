@@ -1,2 +1,5 @@
-env: prod
-api-name: company-service
+spring:
+  application:
+    name: company-config-server
+  profiles:
+    active: prod
