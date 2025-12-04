@@ -1,2 +1,5 @@
-env: cert
-api-name: company-service
+spring:
+  application:
+    name: company-config-server
+  profiles:
+    active: dev,cert
