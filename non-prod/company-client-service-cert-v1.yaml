@@ -1,5 +1,3 @@
-spring:
-  application:
-    name: company-config-server
-  profiles:
-    active: dev,cert
+#Test data
+company:
+  name: Capgemini, IBM, HCL, TCS, Infosys
